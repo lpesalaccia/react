@@ -23,11 +23,11 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="nosotros" element={<NosotrosPage />} />
-          <Route path="servicios" element={<ServiciosPage />} />
-          <Route path="galeria" element={<GaleriaPage />} />
-          <Route path="novedades" element={<NovedadesPage />} />
-          <Route path="contacto" element={<ContactoPage />} />
+          <Route path="/nosotros" element={<NosotrosPage />} />
+          <Route path="/servicios" element={<ServiciosPage />} />
+          <Route path="/galeria" element={<GaleriaPage />} />
+          <Route path="/novedades" element={<NovedadesPage />} />
+          <Route path="/contacto" element={<ContactoPage />} />
         </Routes>
       </BrowserRouter>
 

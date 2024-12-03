@@ -1,0 +1,55 @@
+/*inicio contactos*/
+
+.contacto {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.contacto div {
+    width: 100%;
+    padding: 20px;
+}
+
+.datos ul li {
+    font-size: 13px;
+}
+
+.formulario p {
+    display: flex;
+}
+
+.formulario p label {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 80px;
+}
+
+.formulario p:nth-child(4) {
+    align-items: start;
+}
+
+.formulario textarea {
+    resize: none;
+    height: 150px;
+} 
+
+.formulario imput[type="submit"] {
+    background: #A19B9B;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+}
+
+.formulario imput[type="submit"]:hover {
+    background-color: #666;
+}
+
+/*fin contactos*/

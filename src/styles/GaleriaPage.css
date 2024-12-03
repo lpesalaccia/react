@@ -1,0 +1,18 @@
+/*inicio galeria*/
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.galeria img {
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 2px;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+/*fin galeria*/

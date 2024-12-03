@@ -1,5 +1,6 @@
-body {
+/*body {
   margin: 0;
+  
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,26 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}*/
+main div {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 200;
+}
+
+.holder {
+  height: 100%;
+  width: 100%;
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 200;
 }

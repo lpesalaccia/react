@@ -1,54 +1,75 @@
 /*inicio contactos*/
 
 .contacto {
-    width: 100%;
+    width: 80%;
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-}
-
-.contacto div {
-    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
     padding: 20px;
 }
 
+.contacto div {
+    flex: 1;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .datos ul li {
-    font-size: 13px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
 }
 
 .formulario p {
     display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
 }
 
 .formulario p label {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    min-width: 80px;
-}
-
-.formulario p:nth-child(4) {
-    align-items: start;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .formulario textarea {
     resize: none;
     height: 150px;
-} 
-
-.formulario imput[type="submit"] {
-    background: #A19B9B;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
-    color: white;
-    font-size: 16px;
-    padding: 6px 20px;
-    width: auto;
-    position: relative;
-    left: 5rem;
-    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: inherit;
 }
 
-.formulario imput[type="submit"]:hover {
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.formulario button {
+    background: #A19B9B;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: block;
+    margin: 10px auto;
+}
+
+.formulario button:hover {
     background-color: #666;
 }
 

@@ -1,11 +1,71 @@
 /*inicio novedades*/
 
 .holdernov {
-    padding: 20px;
+    padding: 30px;
     font-family: "Comfortaa", sans-serif;
     font-weight: 200;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
 }
 
+.holdernov h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+}
 
+.holdernov p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.holdernov a {
+    text-decoration: none;
+    color: #ff7f50;
+    font-weight: 600;
+}
+
+.holdernov a:hover {
+    color: #ff6347;
+    text-decoration: underline;
+}
+
+.novedad-item {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.novedad-item h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px; 
+}
+
+.novedad-item h2 {
+    font-size: 1.2rem;
+    color: #777;
+    margin-bottom: 15px; 
+}
+
+.novedad-item img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+.novedad-item hr {
+    margin-top: 15px;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
 
 /*fin novedades*/

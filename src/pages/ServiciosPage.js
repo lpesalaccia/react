@@ -3,7 +3,7 @@ import React from "react";
 
 const ServiciosPage = (props) => {
   return (
-    <main>
+    <main className='holder'>
       <div className="contenidos">
         <h2>Servicios</h2>
 

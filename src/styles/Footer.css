@@ -1,17 +1,26 @@
+/*inicio footer*/
+
 footer {
-    background-color: rgb(75, 58, 41);
+    background-color: #4b3a29;
     color: white;
-    padding: 5px 0;
-    font-family: "Playfair Display", serif;
+    padding: 15px 0;
+    font-family: "Cormorant Garamond", serif;
     font-weight: 600;
     width: 100%;
-    min-height: 40px;
+    min-height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 0;
 }
 
-footer {
-    margin: auto 0;
-  }
+footer p {
+    margin: 0;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+/*fin footer*/
